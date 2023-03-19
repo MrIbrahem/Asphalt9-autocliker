@@ -1,7 +1,7 @@
 auto();
 const targetBrightness = 0;
 const targetMediaVolume = 0;
-const autoBrightnessMode = 1;
+const autoBrightnessMode = 0;
 const isAutoBrightnessMode = device.getBrightnessMode();
 const previousBrightness = device.getBrightness();
 const previousMusicVolume = device.getMusicVolume();

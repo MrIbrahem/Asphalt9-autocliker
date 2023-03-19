@@ -31,11 +31,11 @@ module.exports = {
         "500|route|",
         "4000|360-flash", 
         "8000|drift-flash|2000", 
-        "12000|drift|100", 
+        "12000|drift|100"
     ],
     US_Midwest_ROLLING_MOTORWAY: [
         "500|route|ramp_left,ramp_right",
-        "20000|route|bottle2",
+        "20000|route|bottle2"
     ],
     Osaka_RAT_RACE_D: [
         "500|route|bottle,dir_right,ramp,tunnel",
@@ -131,7 +131,8 @@ module.exports = {
         "27000|drift-flash|4500",
         "33000|drift-flash|3000",
 		    "38000|drift-flash|2500" 		
-    ],
+    ] ,
+    
 	Auckland_TOP_RUN_D:[
         "500|route|bottle,ramp_right",
         "15000|drift-flash|2000",

@@ -1,7 +1,7 @@
 const navs = require('./navigations.js');
 // Whether the legendary, platinum, gold, silver, and bronze cars are available, true means available, false means unavailable
 var mpLevelName = ['legend', 'platinum', 'gold', 'silver', 'bronze'];
-var mpStatus    = [ true,    true,      true,  true,     true];
+var mpStatus    = [ false,    false,      true,  true,     true];
 var mpCarPickABC = {
     legend: ['B5', 'A5', 'S5'],
     platinum: ['C5', 'B5', 'A4', 'S4'],
@@ -11,7 +11,7 @@ var mpCarPickABC = {
 };
 
 var mp2LevelName = ['legend', 'platinum', 'gold', 'silver', 'bronze'];
-var mp2Status    = [ true,    true,      true,  true,    true];
+var mp2Status    = [ false,    false,      true,  true,    true];
 var mp2CarPickABC = {
     legend: ['D0', 'C0', 'B0', 'A0', 'S0'],
     platinum: ['D0', 'C0', 'B0', 'A0', 'S0'],
@@ -20,7 +20,7 @@ var mp2CarPickABC = {
     bronze: ['D4', 'C0', 'B0', 'A0', 'S0']
 };
 
-var chCarPickABC = ['C4'];
+var chCarPickABC = ['D4'];
 
 module.exports = {
     //device screen resolution  
@@ -76,7 +76,7 @@ module.exports = {
     },
     ch1:{
         //Car hunt position at daily events
-        carHuntPosition: 6, // negative values mean from the end
+        carHuntPosition: 4, // negative values mean from the end
         //Restrictions on the choice of cars
         carPick : ['D4'],
         //Supported mode (flat-abc | up | down | none)
